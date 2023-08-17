@@ -19,15 +19,6 @@ class App extends Component {
                 <meta key={index} {...tag} />
             ))}
           </Head>
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-GMQTQSW3NS"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-GMQTQSW3NS');
-</script>
         </div>
     )
   }
